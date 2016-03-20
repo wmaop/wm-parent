@@ -47,7 +47,6 @@
 		<powermock.version>1.6.2</powermock.version>
 		<mockito.version>1.10.19</mockito.version>
 		<junit.version>4.12</junit.version>
-
 	</properties>
 
 	<dependencies>
@@ -69,6 +68,13 @@
 				<configuration>
 					<source>1.7</source>
 					<target>1.7</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-scm-plugin</artifactId>
+				<version>1.9.4</version>
+				<configuration>
+					<tag>${project.artifactId}-${project.version}</tag>
 				</configuration>
 			</plugin>
 		</plugins>
