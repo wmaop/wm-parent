@@ -53,6 +53,14 @@
 	<dependencies>
 	</dependencies>
 
+	<distributionManagement>
+		<repository>
+			<id>releases</id>
+			<name>releases</name>
+			<url>${release.repository}</url>
+		</repository>
+	</distributionManagement>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -61,18 +69,6 @@
 				<configuration>
 					<source>1.7</source>
 					<target>1.7</target>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>versions-maven-plugin</artifactId>
-				<version>2.2</version>
-			</plugin>
-			<plugin>
-				<artifactId>maven-scm-plugin</artifactId>
-				<version>1.9.4</version>
-				<configuration>
-					<tag>${project.artifactId}-${project.version}</tag>
 				</configuration>
 			</plugin>
 		</plugins>
