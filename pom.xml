@@ -4,7 +4,7 @@
 
 	<groupId>org.wmaop</groupId>
 	<artifactId>wm-parent</artifactId>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.3-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>wm-parent</name>
