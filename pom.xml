@@ -3,7 +3,7 @@
 
 	<groupId>org.wmaop</groupId>
 	<artifactId>wm-parent</artifactId>
-	<version>1.0.5</version>
+	<version>1.0.6-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>wm-parent</name>
@@ -26,7 +26,7 @@
 		<url>https://github.com/wmaop/wm-parent</url>
 		<connection>scm:git:git://github.com/wmaop/wm-parent.git</connection>
 		<developerConnection>scm:git:sysgen@github.com:wmaop/wm-parent.git</developerConnection>
- 	    <tag>wm-parent-1.0.5</tag>
+ 	    <tag>wm-parent-1.0.4-SNAPSHOT</tag>
   </scm>
 
 	<developers>
