@@ -3,7 +3,7 @@
 
 	<groupId>org.wmaop</groupId>
 	<artifactId>wm-parent</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.4-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>wm-parent</name>
@@ -26,7 +26,7 @@
 		<url>https://github.com/wmaop/wm-parent</url>
 		<connection>scm:git:git://github.com/wmaop/wm-parent.git</connection>
 		<developerConnection>scm:git:sysgen@github.com:wmaop/wm-parent.git</developerConnection>
-	  <tag>wm-parent-1.0.3</tag>
+ 	    <tag>wm-parent-1.0.4-SNAPSHOT</tag>
   </scm>
 
 	<developers>
@@ -44,7 +44,7 @@
 		<commons-lang.version>2.3</commons-lang.version>
 		<log4j.version>1.2.16</log4j.version>
 
-		<powermock.version>1.6.2</powermock.version>
+		<powermock.version>1.6.5</powermock.version>
 		<mockito.version>1.10.19</mockito.version>
 		<junit.version>4.12</junit.version>
 		<snapshot.repository>http://ubuntuserver:8081/artifactory/libs-snapshot-local</snapshot.repository>
