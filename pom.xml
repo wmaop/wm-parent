@@ -26,7 +26,6 @@
 		<url>https://github.com/wmaop/wm-parent</url>
 		<connection>scm:git:git://github.com/wmaop/wm-parent.git</connection>
 		<developerConnection>scm:git:sysgen@github.com:wmaop/wm-parent.git</developerConnection>
- 	    <tag>wm-parent-1.0.4-SNAPSHOT</tag>
   </scm>
 
 	<developers>
