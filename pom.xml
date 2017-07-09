@@ -85,7 +85,6 @@
 				<groupId>com.softwareag.webmethods</groupId>
 				<artifactId>wm-isserver</artifactId>
 				<version>${webMethods.version}</version>
-				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.ws.commons.axiom</groupId>
